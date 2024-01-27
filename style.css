@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(38, 5, 61);
+}
+
+.container, .title {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 80px;
+    color: #fff;
+    text-shadow: 0 0 40px rgb(225, 180, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+@media screen and (max-width: 1000px) {
+    .container, .title {
+        font-size: 8vw;
+    }
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star {
+    width: 10%;
+    padding-top: 20px;
+}
